@@ -53,9 +53,9 @@ function writeData(destPath, data, cb) {
 function incrementData(data, increment){
 	data = data.toString().replace(/(\d\d)\:(\d\d)\:(\d\d)/g, function(timePattern, hours, minutes, seconds){
 		var //times = timePattern.split(":"),
-			date = new Date();
-			newHour = 0;
-			newMinute = 0;
+			date = new Date(),
+			newHour = 0,
+			newMinute = 0,
 			newSecond = 0;
 
 		date.setHours(hours);
