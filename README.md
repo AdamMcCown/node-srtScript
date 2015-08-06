@@ -8,6 +8,10 @@ watchable (success?).
 
 Usage
 
-`
-node [pathToSRTScript.js] [pathToSRTFile] [# of seconds to add/subtract]
-`
+```
+$ node [pathToSRTScript.js] [pathToSRTFile] [# of seconds to add/subtract]
+
+$ node srtScript.js /path/subtitles.srt 5
+
+$ node srtScript.js /path/subtitles.srt -5
+```
